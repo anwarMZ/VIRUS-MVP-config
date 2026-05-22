@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "schema_version": "1",
+    "description": "WasteFlow genome configuration registry. Maps virus targets to reference accessions and their config paths.",
+    "maintained_by": "WasteFlow",
+    "path_convention": "viruses/<virus_key>/<accession>/genome_config.json (non-segmented) | viruses/<family>/<subtype>/<segment>/<accession>/segment_config.json (segmented)"
+  },
+    "SARS-CoV-2": {
+      "display_name": "SARS-CoV-2",
+      "references": [
+        {
+          "accession": "NC_045512.2",
+          "label": "Wuhan-Hu-1 reference",
+          "config": "viruses/SARS-CoV-2/NC_045512.2/genome_config.json",
+          "status": "active"
+        }
+      ]
+    },
+    "RSV_A": {
+      "display_name": "RSV A",
+      "references": [
+        {
+          "accession": "PP109421.1",
+          "label": "RSV-A reference",
+          "config": "viruses/RSV_A/PP109421.1/genome_config.json",
+          "status": "active"
+        }
+      ]
+    },
+    "RSV_B": {
+      "display_name": "RSV B",
+      "references": [
+        {
+          "accession": "OP975389.1",
+          "label": "RSV-B reference",
+          "config": "viruses/RSV_B/OP975389.1/genome_config.json",
+          "status": "active"
+        }
+      ]
+    },
+    "Measles": {
+      "display_name": "Measles",
+      "references": [
+        {
+          "accession": "NC_001498.1",
+          "label": "MeV reference",
+          "config": "viruses/Measles/NC_001498.1/genome_config.json",
+          "status": "active"
+        }
+      ]
+    },
+    "Influenza_A": {
+      "display_name": "Influenza A virus",
+      "subtypes": {
+        "H1N1": {
+          "display_name": "Influenza A virus (H1N1)",
+          "segments": {
+            "PB2": [{ "accession": "NC_026438.1", "config": "viruses/Influenza_A/H1N1/PB2/NC_026438.1/genome_config.json", "status": "active" }],
+            "PB1": [{ "accession": "NC_026435.1", "config": "viruses/Influenza_A/H1N1/PB1/NC_026435.1/genome_config.json", "status": "active" }],
+            "PA":  [{ "accession": "NC_026437.1", "config": "viruses/Influenza_A/H1N1/PA/NC_026437.1/genome_config.json",  "status": "active" }],
+            "HA":  [{ "accession": "CY121680.1",  "config": "viruses/Influenza_A/H1N1/HA/CY121680.1/genome_config.json",  "status": "active" }],
+            "NP":  [{ "accession": "NC_026436.1", "config": "viruses/Influenza_A/H1N1/NP/NC_026436.1/genome_config.json", "status": "active" }],
+            "NA":  [{ "accession": "MW626056.1",  "config": "viruses/Influenza_A/H1N1/NA/MW626056.1/genome_config.json",  "status": "active" }],
+            "M":   [{ "accession": "NC_026431.1", "config": "viruses/Influenza_A/H1N1/M/NC_026431.1/genome_config.json",   "status": "active" }],
+            "NS":  [{ "accession": "NC_026432.1", "config": "viruses/Influenza_A/H1N1/NS/NC_026432.1/genome_config.json", "status": "active" }]
+          }
+        },
+        "H3N2": {
+          "display_name": "Influenza A virus (H3N2)",
+          "segments": {
+            "PB2": [{ "accession": "NC_007373.1", "config": "viruses/Influenza_A/H3N2/PB2/NC_007373.1/genome_config.json", "status": "active" }],
+            "PB1": [{ "accession": "NC_007372.1", "config": "viruses/Influenza_A/H3N2/PB1/NC_007372.1/genome_config.json", "status": "active" }],
+            "PA":  [{ "accession": "NC_007371.1", "config": "viruses/Influenza_A/H3N2/PA/NC_007371.1/genome_config.json",  "status": "active" }],
+            "HA":  [{ "accession": "CY163680.1",  "config": "viruses/Influenza_A/H3N2/HA/CY163680.1/genome_config.json",  "status": "active" }],
+            "NP":  [{ "accession": "NC_007369.1", "config": "viruses/Influenza_A/H3N2/NP/NC_007369.1/genome_config.json", "status": "active" }],
+            "NA":  [{ "accession": "CY114383.1",  "config": "viruses/Influenza_A/H3N2/NA/CY114383.1/genome_config.json",  "status": "active" }],
+            "M":   [{ "accession": "NC_007367.1", "config": "viruses/Influenza_A/H3N2/M/NC_007367.1/genome_config.json",   "status": "active" }],
+            "NS":  [{ "accession": "NC_007370.1", "config": "viruses/Influenza_A/H3N2/NS/NC_007370.1/genome_config.json", "status": "active" }]
+          }
+        },
+        "H5Nx": {
+          "display_name": "Influenza A virus (H5Nx)",
+          "segments": {
+            "PB2": [{ "accession": "NC_007357.1", "config": "viruses/Influenza_A/H5Nx/PB2/NC_007357.1/genome_config.json", "status": "active" }],
+            "PB1": [{ "accession": "NC_007358.1", "config": "viruses/Influenza_A/H5Nx/PB1/NC_007358.1/genome_config.json", "status": "active" }],
+            "PA":  [{ "accession": "NC_007359.1", "config": "viruses/Influenza_A/H5Nx/PA/NC_007359.1/genome_config.json",  "status": "active" }],
+            "HA":  [{ "accession": "NC_007362.1", "config": "viruses/Influenza_A/H5Nx/HA/NC_007362.1/genome_config.json",  "status": "active" }],
+            "NP":  [{ "accession": "NC_007360.1", "config": "viruses/Influenza_A/H5Nx/NP/NC_007360.1/genome_config.json", "status": "active" }],
+            "NA":  [{ "accession": "NC_007361.1", "config": "viruses/Influenza_A/H5Nx/NA/NC_007361.1/genome_config.json",  "status": "active" }],
+            "M":   [{ "accession": "NC_007363.1", "config": "viruses/Influenza_A/H5Nx/M/NC_007363.1/genome_config.json",   "status": "active" }],
+            "NS":  [{ "accession": "NC_007364.1", "config": "viruses/Influenza_A/H5Nx/NS/NC_007364.1/genome_config.json", "status": "active" }]
+          }
+        }
+      }
+    },
+    "Influenza_B": {
+      "display_name": "Influenza B virus",
+      "subtypes": {
+        "Victoria": {
+          "display_name": "Influenza B virus (Victoria lineage)",
+          "segments": {
+            "PB2": [{ "accession": "CY115158.1", "config": "viruses/Influenza_B/Victoria/PB2/CY115158.1/genome_config.json", "status": "active" }],
+            "PB1": [{ "accession": "CY115157.1", "config": "viruses/Influenza_B/Victoria/PB1/CY115157.1/genome_config.json", "status": "active" }],
+            "PA":  [{ "accession": "CY115156.1", "config": "viruses/Influenza_B/Victoria/PA/CY115156.1/genome_config.json",  "status": "active" }],
+            "HA":  [{ "accession": "KX058884.1", "config": "viruses/Influenza_B/Victoria/HA/KX058884.1/genome_config.json",  "status": "active" }],
+            "NP":  [{ "accession": "CY115154.1", "config": "viruses/Influenza_B/Victoria/NP/CY115154.1/genome_config.json", "status": "active" }],
+            "NA":  [{ "accession": "CY073894.1", "config": "viruses/Influenza_B/Victoria/NA/CY073894.1/genome_config.json",  "status": "active" }],
+            "M":   [{ "accession": "CY115152.1", "config": "viruses/Influenza_B/Victoria/M/CY115152.1/genome_config.json",  "status": "active" }],
+            "NS":  [{ "accession": "CY115155.1", "config": "viruses/Influenza_B/Victoria/NS/CY115155.1/genome_config.json", "status": "active" }]
+          }
+        }
+      }
+    }
+  
+}
