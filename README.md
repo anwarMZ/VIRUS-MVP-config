@@ -1,6 +1,6 @@
-# wasteflow-genome-configs
+# VIRUS-MVP-genome-configs
 
-Reference genome configuration files for [WasteFlow 2.0](https://github.com/wasteflow/wasteflow) — a multi-pathogen wastewater genomics pipeline for probe-enriched sequencing data.
+Reference genome configuration files for [VIRUS-MVP](https://github.com/cidgoh/VIRUS-MVP) 
 
 Downstream tools consume this repository by cloning it and resolving config paths via `index.json`.
 
@@ -9,7 +9,7 @@ Downstream tools consume this repository by cloning it and resolving config path
 ## Repository structure
 
 ```
-wasteflow-genome-configs/
+VIRUS-MVP-config/
 ├── index.json                          ← single source of truth; all paths resolve from here
 ├── schema/
 │   ├── genome_config.schema.json       ← JSON Schema for non-segmented configs
@@ -32,8 +32,8 @@ wasteflow-genome-configs/
     │       └── genome_config.json
     ├── Influenza_A/
     │   ├── H1N1/
-    │   │   ├── HA/CY121680.1/segment_config.json
-    │   │   ├── NA/MW626056.1/segment_config.json
+    │   │   ├── HA/CY121680.1/genome_config.json
+    │   │   ├── NA/MW626056.1/genome_config.json
     │   │   └── ...
     │   ├── H3N2/
     │   │   └── ...
@@ -51,7 +51,7 @@ wasteflow-genome-configs/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/<org>/wasteflow-genome-configs.git
+git clone https://github.com/anwarMZ/VIRUS-MVP-config.git
 ```
 
 ### Resolve config paths (Python library)
@@ -59,7 +59,7 @@ git clone https://github.com/<org>/wasteflow-genome-configs.git
 ```python
 from scripts.resolve_configs import GenomeConfigRegistry
 
-registry = GenomeConfigRegistry("/path/to/wasteflow-genome-configs")
+registry = GenomeConfigRegistry("/path/to/VIRUS-MVP-genome-configs")
 
 # Non-segmented virus
 configs = registry.get_nonsegmented("SARS-CoV-2")
@@ -148,7 +148,7 @@ python scripts/validate_index.py --repo-root .
 
 ## Config file formats
 
-Config files are generated from NCBI GFF annotations by WasteFlow's preprocessing scripts. See `schema/` for the JSON Schema definitions governing each format.
+Config files are generated from NCBI GFF annotations by VIRUS-MVP's preprocessing scripts. See `schema/` for the JSON Schema definitions governing each format.
 
 | File | Used for |
 |---|---|
