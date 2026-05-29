@@ -1,0 +1,9 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_007357.1 1 2341
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=93838
+NC_007357.1	RefSeq	region	1	2341	.	+	.	ID=NC_007357.1:1..2341;Dbxref=taxon:93838;Name=1;gbkey=Src;genome=genomic;mol_type=genomic RNA;old-name=Influenza A virus (A/Goose/Guangdong/1/96(H5N1));segment=1;strain=A/Goose/Guangdong/1/96(H5N1)
+NC_007357.1	RefSeq	gene	28	2307	.	+	.	ID=gene-FLUAVH5N1_s1gp1;Dbxref=GeneID:3654615;Name=PB2;gbkey=Gene;gene=PB2;gene_biotype=protein_coding;locus_tag=FLUAVH5N1_s1gp1
+NC_007357.1	RefSeq	CDS	28	2307	.	+	0	ID=cds-YP_308664.1;Parent=gene-FLUAVH5N1_s1gp1;Dbxref=GenBank:YP_308664.1,GeneID:3654615;Name=YP_308664.1;gbkey=CDS;gene=PB2;locus_tag=FLUAVH5N1_s1gp1;product=polymerase;protein_id=YP_308664.1
+

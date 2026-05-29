@@ -1,0 +1,12 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_007364.1 1 865
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=93838
+NC_007364.1	RefSeq	region	1	865	.	+	.	ID=NC_007364.1:1..865;Dbxref=taxon:93838;Name=8;gbkey=Src;genome=genomic;mol_type=viral cRNA;old-name=Influenza A virus (A/Goose/Guangdong/1/96(H5N1));segment=8;serotype=H5N1;strain=A/goose/Guangdong/1/1996
+NC_007364.1	RefSeq	gene	15	852	.	+	.	ID=gene-FLUAVH5N1_s8gp1;Dbxref=GeneID:3654622;Name=NEP;gbkey=Gene;gene=NEP;gene_biotype=protein_coding;gene_synonym=NS2;locus_tag=FLUAVH5N1_s8gp1
+NC_007364.1	RefSeq	CDS	15	44	.	+	0	ID=cds-YP_308672.1;Parent=gene-FLUAVH5N1_s8gp1;Dbxref=GenBank:YP_308672.1,GeneID:3654622;Name=YP_308672.1;gbkey=CDS;gene=NEP;locus_tag=FLUAVH5N1_s8gp1;product=nonstructural protein 2;protein_id=YP_308672.1
+NC_007364.1	RefSeq	CDS	517	852	.	+	0	ID=cds-YP_308672.1;Parent=gene-FLUAVH5N1_s8gp1;Dbxref=GenBank:YP_308672.1,GeneID:3654622;Name=YP_308672.1;gbkey=CDS;gene=NEP;locus_tag=FLUAVH5N1_s8gp1;product=nonstructural protein 2;protein_id=YP_308672.1
+NC_007364.1	RefSeq	gene	15	707	.	+	.	ID=gene-FLUAVH5N1_s8gp2;Dbxref=GeneID:8656648;Name=NS1;gbkey=Gene;gene=NS1;gene_biotype=protein_coding;locus_tag=FLUAVH5N1_s8gp2
+NC_007364.1	RefSeq	CDS	15	707	.	+	0	ID=cds-YP_308673.1;Parent=gene-FLUAVH5N1_s8gp2;Dbxref=GenBank:YP_308673.1,GeneID:8656648;Name=YP_308673.1;gbkey=CDS;gene=NS1;locus_tag=FLUAVH5N1_s8gp2;product=nonstructural protein 1;protein_id=YP_308673.1
+

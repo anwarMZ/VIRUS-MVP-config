@@ -1,0 +1,109 @@
+{
+    "Src": {
+        "type": "region",
+        "start": 1,
+        "end": 982,
+        "ID": "NC_026431.1:1..982",
+        "Dbxref": "taxon:641809",
+        "Name": "7",
+        "collection-date": "09-Apr-2009",
+        "country": "USA: California state",
+        "gbkey": "Src",
+        "genome": "genomic",
+        "mol_type": "viral cRNA",
+        "nat-host": "Homo sapiens%3B gender M%3B age 54",
+        "segment": "7",
+        "serotype": "H1N1",
+        "strain": "A/California/07/2009",
+        "species": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=641809",
+        "accession": "NC_026431.1"
+    },
+    "gene-UJ99_s7gp1": {
+        "type": "gene",
+        "start": 1,
+        "end": 982,
+        "ID": "gene-UJ99_s7gp1",
+        "Dbxref": "GeneID:23308108",
+        "Name": "M2",
+        "gbkey": "Gene",
+        "gene": "M2",
+        "gene_biotype": "protein_coding",
+        "locus_tag": "UJ99_s7gp1"
+    },
+    "M2": {
+        "type": "CDS",
+        "start": 1,
+        "end": 26,
+        "ID": "cds-YP_009118622.1",
+        "Parent": "gene-UJ99_s7gp1",
+        "Dbxref": "GenBank:YP_009118622.1,GeneID:23308108",
+        "Name": "YP_009118622.1",
+        "gbkey": "CDS",
+        "gene": "M2",
+        "locus_tag": "UJ99_s7gp1",
+        "product": "matrix protein 2",
+        "protein_id": "YP_009118622.1",
+        "aa_start": 1,
+        "aa_end": 8,
+        "protein_alias": [
+            "M2"
+        ],
+        "color": "rgba(217, 173, 60, 1)"
+    },
+    "M2_1": {
+        "type": "CDS",
+        "start": 715,
+        "end": 982,
+        "ID": "cds-YP_009118622.1",
+        "Parent": "gene-UJ99_s7gp1",
+        "Dbxref": "GenBank:YP_009118622.1,GeneID:23308108",
+        "Name": "YP_009118622.1",
+        "gbkey": "CDS",
+        "gene": "M2",
+        "locus_tag": "UJ99_s7gp1",
+        "product": "matrix protein 2-i",
+        "protein_id": "YP_009118622.1",
+        "aa_start": 1,
+        "aa_end": 89,
+        "protein_alias": [
+            "M2"
+        ],
+        "color": "rgba(217, 173, 60, 1)"
+    },
+    "gene-UJ99_s7gp2": {
+        "type": "gene",
+        "start": 1,
+        "end": 759,
+        "ID": "gene-UJ99_s7gp2",
+        "Dbxref": "GeneID:23308107",
+        "Name": "M1",
+        "gbkey": "Gene",
+        "gene": "M1",
+        "gene_biotype": "protein_coding",
+        "locus_tag": "UJ99_s7gp2"
+    },
+    "M1": {
+        "type": "CDS",
+        "start": 1,
+        "end": 759,
+        "ID": "cds-YP_009118623.1",
+        "Parent": "gene-UJ99_s7gp2",
+        "Dbxref": "GenBank:YP_009118623.1,GeneID:23308107",
+        "Name": "YP_009118623.1",
+        "gbkey": "CDS",
+        "gene": "M1",
+        "locus_tag": "UJ99_s7gp2",
+        "product": "matrix protein 1",
+        "protein_id": "YP_009118623.1",
+        "aa_start": 1,
+        "aa_end": 252,
+        "protein_alias": [
+            "M1"
+        ],
+        "color": "rgba(217, 173, 60, 1)"
+    },
+    "INTERGENIC": {
+        "type": "INTERGENIC",
+        "color": "rgb(128,128,128)"
+    }
+}

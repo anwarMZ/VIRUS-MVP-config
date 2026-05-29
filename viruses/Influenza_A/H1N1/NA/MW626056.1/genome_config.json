@@ -1,0 +1,54 @@
+{
+    "Src": {
+        "type": "region",
+        "start": 1,
+        "end": 1433,
+        "ID": "MW626056.1:1..1433",
+        "Dbxref": "taxon:11320",
+        "Name": "6",
+        "collection-date": "19-Dec-2019",
+        "country": "USA: Wisconsin",
+        "gbkey": "Src",
+        "mol_type": "viral cRNA",
+        "nat-host": "Homo sapiens",
+        "note": "passage details:C2S1 (2020-05-15)",
+        "segment": "6",
+        "serotype": "H1N1",
+        "strain": "A/Wisconsin/588/2019",
+        "species": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320",
+        "accession": "MW626056.1"
+    },
+    "gene-NA": {
+        "type": "gene",
+        "start": 9,
+        "end": 1418,
+        "ID": "gene-NA",
+        "Name": "NA",
+        "gbkey": "Gene",
+        "gene": "NA",
+        "gene_biotype": "protein_coding"
+    },
+    "NA": {
+        "type": "CDS",
+        "start": 9,
+        "end": 1418,
+        "ID": "cds-QRV63257.1",
+        "Parent": "gene-NA",
+        "Dbxref": "NCBI_GP:QRV63257.1",
+        "Name": "QRV63257.1",
+        "gbkey": "CDS",
+        "gene": "NA",
+        "product": "neuraminidase",
+        "protein_id": "QRV63257.1",
+        "aa_start": 1,
+        "aa_end": 469,
+        "protein_alias": [
+            "NA"
+        ],
+        "color": "rgba(96, 170, 158, 1)"
+    },
+    "INTERGENIC": {
+        "type": "INTERGENIC",
+        "color": "rgb(128,128,128)"
+    }
+}

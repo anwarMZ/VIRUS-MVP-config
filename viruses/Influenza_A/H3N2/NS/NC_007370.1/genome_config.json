@@ -1,0 +1,112 @@
+{
+    "Src": {
+        "type": "region",
+        "start": 1,
+        "end": 890,
+        "ID": "NC_007370.1:1..890",
+        "Dbxref": "taxon:335341",
+        "Name": "8",
+        "collection-date": "21-Dec-2004",
+        "country": "USA: Tompkins County%2C NY",
+        "gbkey": "Src",
+        "genome": "genomic",
+        "isolation-source": "gender:M%3B age:16y",
+        "lab-host": "RhMK 1 passage(s)",
+        "mol_type": "viral cRNA",
+        "nat-host": "Homo sapiens",
+        "segment": "8",
+        "serotype": "H3N2",
+        "strain": "A/New York/392/2004",
+        "species": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=335341",
+        "accession": "NC_007370.1"
+    },
+    "gene-FLUAVH3N2_s8p1": {
+        "type": "gene",
+        "start": 27,
+        "end": 864,
+        "ID": "gene-FLUAVH3N2_s8p1",
+        "Dbxref": "GeneID:3655157",
+        "Name": "NEP",
+        "gbkey": "Gene",
+        "gene": "NEP",
+        "gene_biotype": "protein_coding",
+        "gene_synonym": "NS2",
+        "locus_tag": "FLUAVH3N2_s8p1"
+    },
+    "NS2": {
+        "type": "CDS",
+        "start": 27,
+        "end": 56,
+        "ID": "cds-YP_308844.1",
+        "Parent": "gene-FLUAVH3N2_s8p1",
+        "Dbxref": "GenBank:YP_308844.1,GeneID:3655157",
+        "Name": "YP_308844.1",
+        "gbkey": "CDS",
+        "gene": "NEP",
+        "locus_tag": "FLUAVH3N2_s8p1",
+        "product": "nonstructural protein 2",
+        "protein_id": "YP_308844.1",
+        "aa_start": 1,
+        "aa_end": 9,
+        "protein_alias": [
+            "NS2"
+        ],
+        "color": "rgba(217, 173, 60, 1)"
+    },
+    "NS2_1": {
+        "type": "CDS",
+        "start": 529,
+        "end": 864,
+        "ID": "cds-YP_308844.1",
+        "Parent": "gene-FLUAVH3N2_s8p1",
+        "Dbxref": "GenBank:YP_308844.1,GeneID:3655157",
+        "Name": "YP_308844.1",
+        "gbkey": "CDS",
+        "gene": "NEP",
+        "locus_tag": "FLUAVH3N2_s8p1",
+        "product": "nonstructural protein 2-i",
+        "protein_id": "YP_308844.1",
+        "aa_start": 1,
+        "aa_end": 111,
+        "protein_alias": [
+            "NS2"
+        ],
+        "color": "rgba(217, 173, 60, 1)"
+    },
+    "gene-FLUAVH3N2_s8p2": {
+        "type": "gene",
+        "start": 27,
+        "end": 719,
+        "ID": "gene-FLUAVH3N2_s8p2",
+        "Dbxref": "GeneID:3655156",
+        "Name": "NS1",
+        "gbkey": "Gene",
+        "gene": "NS1",
+        "gene_biotype": "protein_coding",
+        "locus_tag": "FLUAVH3N2_s8p2"
+    },
+    "NS1": {
+        "type": "CDS",
+        "start": 27,
+        "end": 719,
+        "ID": "cds-YP_308845.1",
+        "Parent": "gene-FLUAVH3N2_s8p2",
+        "Dbxref": "GenBank:YP_308845.1,GeneID:3655156",
+        "Name": "YP_308845.1",
+        "gbkey": "CDS",
+        "gene": "NS1",
+        "locus_tag": "FLUAVH3N2_s8p2",
+        "product": "nonstructural protein 1",
+        "protein_id": "YP_308845.1",
+        "aa_start": 1,
+        "aa_end": 230,
+        "protein_alias": [
+            "NS1"
+        ],
+        "color": "rgba(217, 173, 60, 1)"
+    },
+    "INTERGENIC": {
+        "type": "INTERGENIC",
+        "color": "rgb(128,128,128)"
+    }
+}

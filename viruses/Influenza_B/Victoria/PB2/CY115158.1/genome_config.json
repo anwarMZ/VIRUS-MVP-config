@@ -1,0 +1,61 @@
+{
+    "Src": {
+        "type": "region",
+        "start": 1,
+        "end": 2358,
+        "ID": "CY115158.1:1..2358",
+        "Dbxref": "taxon:604436",
+        "Name": "2",
+        "collection-date": "2008",
+        "country": "Australia: Brisbane",
+        "gbkey": "Src",
+        "lab-host": "Egg passage(s)",
+        "mol_type": "viral cRNA",
+        "nat-host": "human",
+        "segment": "2",
+        "strain": "B/Brisbane/60/2008",
+        "species": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=604436",
+        "accession": "CY115158.1"
+    },
+    "misc_feature": {
+        "type": "sequence_feature",
+        "start": 1,
+        "end": 2358,
+        "ID": "id-CY115158.1:1..2358",
+        "Dbxref": "IRD:NIGSP_BUCB_00018.PB2",
+        "gbkey": "misc_feature"
+    },
+    "gene-PB2": {
+        "type": "gene",
+        "start": 4,
+        "end": 2316,
+        "ID": "gene-PB2",
+        "Name": "PB2",
+        "gbkey": "Gene",
+        "gene": "PB2",
+        "gene_biotype": "protein_coding"
+    },
+    "PB2": {
+        "type": "CDS",
+        "start": 4,
+        "end": 2316,
+        "ID": "cds-AFH57919.1",
+        "Parent": "gene-PB2",
+        "Dbxref": "NCBI_GP:AFH57919.1",
+        "Name": "AFH57919.1",
+        "gbkey": "CDS",
+        "gene": "PB2",
+        "product": "polymerase PB2",
+        "protein_id": "AFH57919.1",
+        "aa_start": 1,
+        "aa_end": 770,
+        "protein_alias": [
+            "PB2"
+        ],
+        "color": "rgba(96, 170, 158, 1)"
+    },
+    "INTERGENIC": {
+        "type": "INTERGENIC",
+        "color": "rgb(128,128,128)"
+    }
+}

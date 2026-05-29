@@ -1,0 +1,57 @@
+{
+    "Src": {
+        "type": "region",
+        "start": 1,
+        "end": 1497,
+        "ID": "NC_026436.1:1..1497",
+        "Dbxref": "taxon:641809",
+        "Name": "5",
+        "collection-date": "09-Apr-2009",
+        "country": "USA: California state",
+        "gbkey": "Src",
+        "genome": "genomic",
+        "mol_type": "viral cRNA",
+        "nat-host": "Homo sapiens%3B gender M%3B age 54",
+        "segment": "5",
+        "serotype": "H1N1",
+        "strain": "A/California/07/2009",
+        "species": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=641809",
+        "accession": "NC_026436.1"
+    },
+    "gene-UJ99_s5gp1": {
+        "type": "gene",
+        "start": 1,
+        "end": 1497,
+        "ID": "gene-UJ99_s5gp1",
+        "Dbxref": "GeneID:23308125",
+        "Name": "NP",
+        "gbkey": "Gene",
+        "gene": "NP",
+        "gene_biotype": "protein_coding",
+        "locus_tag": "UJ99_s5gp1"
+    },
+    "NP": {
+        "type": "CDS",
+        "start": 1,
+        "end": 1497,
+        "ID": "cds-YP_009118629.1",
+        "Parent": "gene-UJ99_s5gp1",
+        "Dbxref": "GenBank:YP_009118629.1,GeneID:23308125",
+        "Name": "YP_009118629.1",
+        "gbkey": "CDS",
+        "gene": "NP",
+        "locus_tag": "UJ99_s5gp1",
+        "product": "nucleocapsid protein",
+        "protein_id": "YP_009118629.1",
+        "aa_start": 1,
+        "aa_end": 498,
+        "protein_alias": [
+            "NP"
+        ],
+        "color": "rgba(96, 170, 158, 1)"
+    },
+    "INTERGENIC": {
+        "type": "INTERGENIC",
+        "color": "rgb(128,128,128)"
+    }
+}

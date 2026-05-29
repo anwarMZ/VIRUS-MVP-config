@@ -1,0 +1,54 @@
+{
+    "Src": {
+        "type": "region",
+        "start": 1,
+        "end": 1458,
+        "ID": "NC_007361.1:1..1458",
+        "Dbxref": "taxon:93838",
+        "Name": "6",
+        "gbkey": "Src",
+        "genome": "genomic",
+        "mol_type": "viral cRNA",
+        "old-name": "Influenza A virus (A/Goose/Guangdong/1/96(H5N1))",
+        "segment": "6",
+        "strain": "A/Goose/Guangdong/1/96(H5N1)",
+        "species": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=93838",
+        "accession": "NC_007361.1"
+    },
+    "gene-FLUAVH5N1_s6gp1": {
+        "type": "gene",
+        "start": 21,
+        "end": 1430,
+        "ID": "gene-FLUAVH5N1_s6gp1",
+        "Dbxref": "GeneID:3654619",
+        "Name": "NA",
+        "gbkey": "Gene",
+        "gene": "NA",
+        "gene_biotype": "protein_coding",
+        "locus_tag": "FLUAVH5N1_s6gp1"
+    },
+    "NA": {
+        "type": "CDS",
+        "start": 21,
+        "end": 1430,
+        "ID": "cds-YP_308668.1",
+        "Parent": "gene-FLUAVH5N1_s6gp1",
+        "Dbxref": "GenBank:YP_308668.1,GeneID:3654619",
+        "Name": "YP_308668.1",
+        "gbkey": "CDS",
+        "gene": "NA",
+        "locus_tag": "FLUAVH5N1_s6gp1",
+        "product": "neuraminidase",
+        "protein_id": "YP_308668.1",
+        "aa_start": 1,
+        "aa_end": 469,
+        "protein_alias": [
+            "NA"
+        ],
+        "color": "rgba(96, 170, 158, 1)"
+    },
+    "INTERGENIC": {
+        "type": "INTERGENIC",
+        "color": "rgb(128,128,128)"
+    }
+}

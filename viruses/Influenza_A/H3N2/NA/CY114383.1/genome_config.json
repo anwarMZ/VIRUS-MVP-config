@@ -1,0 +1,63 @@
+{
+    "Src": {
+        "type": "region",
+        "start": 1,
+        "end": 1436,
+        "ID": "CY114383.1:1..1436",
+        "Dbxref": "taxon:393902",
+        "Name": "6",
+        "bio-material": "CEIRS#CIP047WI6705#",
+        "collection-date": "2005",
+        "country": "USA: Wisconsin",
+        "gbkey": "Src",
+        "lab-host": "xMDCK2 passage(s)",
+        "mol_type": "viral cRNA",
+        "nat-host": "human",
+        "segment": "6",
+        "serotype": "H3N2",
+        "strain": "A/Wisconsin/67/2005",
+        "species": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=393902",
+        "accession": "CY114383.1"
+    },
+    "misc_feature": {
+        "type": "sequence_feature",
+        "start": 1,
+        "end": 1436,
+        "ID": "id-CY114383.1:1..1436",
+        "Dbxref": "IRD:NIGSP_CEIRS_CIP047_RFH3_00274.NA",
+        "gbkey": "misc_feature"
+    },
+    "gene-NA": {
+        "type": "gene",
+        "start": 4,
+        "end": 1413,
+        "ID": "gene-NA",
+        "Name": "NA",
+        "gbkey": "Gene",
+        "gene": "NA",
+        "gene_biotype": "protein_coding"
+    },
+    "NA": {
+        "type": "CDS",
+        "start": 4,
+        "end": 1413,
+        "ID": "cds-AFH00651.1",
+        "Parent": "gene-NA",
+        "Dbxref": "NCBI_GP:AFH00651.1",
+        "Name": "AFH00651.1",
+        "gbkey": "CDS",
+        "gene": "NA",
+        "product": "neuraminidase",
+        "protein_id": "AFH00651.1",
+        "aa_start": 1,
+        "aa_end": 469,
+        "protein_alias": [
+            "NA"
+        ],
+        "color": "rgba(96, 170, 158, 1)"
+    },
+    "INTERGENIC": {
+        "type": "INTERGENIC",
+        "color": "rgb(128,128,128)"
+    }
+}

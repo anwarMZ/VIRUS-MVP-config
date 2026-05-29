@@ -1,0 +1,61 @@
+{
+    "Src": {
+        "type": "region",
+        "start": 1,
+        "end": 1750,
+        "ID": "CY115154.1:1..1750",
+        "Dbxref": "taxon:604436",
+        "Name": "5",
+        "collection-date": "2008",
+        "country": "Australia: Brisbane",
+        "gbkey": "Src",
+        "lab-host": "Egg passage(s)",
+        "mol_type": "viral cRNA",
+        "nat-host": "human",
+        "segment": "5",
+        "strain": "B/Brisbane/60/2008",
+        "species": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=604436",
+        "accession": "CY115154.1"
+    },
+    "misc_feature": {
+        "type": "sequence_feature",
+        "start": 1,
+        "end": 1750,
+        "ID": "id-CY115154.1:1..1750",
+        "Dbxref": "IRD:NIGSP_BUCB_00018.NP",
+        "gbkey": "misc_feature"
+    },
+    "gene-NP": {
+        "type": "gene",
+        "start": 29,
+        "end": 1711,
+        "ID": "gene-NP",
+        "Name": "NP",
+        "gbkey": "Gene",
+        "gene": "NP",
+        "gene_biotype": "protein_coding"
+    },
+    "NP": {
+        "type": "CDS",
+        "start": 29,
+        "end": 1711,
+        "ID": "cds-AFH57914.1",
+        "Parent": "gene-NP",
+        "Dbxref": "NCBI_GP:AFH57914.1",
+        "Name": "AFH57914.1",
+        "gbkey": "CDS",
+        "gene": "NP",
+        "product": "nucleoprotein",
+        "protein_id": "AFH57914.1",
+        "aa_start": 1,
+        "aa_end": 560,
+        "protein_alias": [
+            "NP"
+        ],
+        "color": "rgba(96, 170, 158, 1)"
+    },
+    "INTERGENIC": {
+        "type": "INTERGENIC",
+        "color": "rgb(128,128,128)"
+    }
+}

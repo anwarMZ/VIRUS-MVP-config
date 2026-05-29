@@ -1,0 +1,107 @@
+{
+    "Src": {
+        "type": "region",
+        "start": 1,
+        "end": 1027,
+        "ID": "NC_007363.1:1..1027",
+        "Dbxref": "taxon:93838",
+        "Name": "7",
+        "gbkey": "Src",
+        "genome": "genomic",
+        "mol_type": "viral cRNA",
+        "old-name": "Influenza A virus (A/Goose/Guangdong/1/96(H5N1))",
+        "segment": "7",
+        "serotype": "H5N1",
+        "strain": "A/goose/Guangdong/1/1996",
+        "species": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=93838",
+        "accession": "NC_007363.1"
+    },
+    "gene-FLUAVH5N1_s7gp1": {
+        "type": "gene",
+        "start": 26,
+        "end": 1007,
+        "ID": "gene-FLUAVH5N1_s7gp1",
+        "Dbxref": "GeneID:3654621",
+        "Name": "M2",
+        "gbkey": "Gene",
+        "gene": "M2",
+        "gene_biotype": "protein_coding",
+        "locus_tag": "FLUAVH5N1_s7gp1"
+    },
+    "M2": {
+        "type": "CDS",
+        "start": 26,
+        "end": 51,
+        "ID": "cds-YP_308670.1",
+        "Parent": "gene-FLUAVH5N1_s7gp1",
+        "Dbxref": "GenBank:YP_308670.1,GeneID:3654621",
+        "Name": "YP_308670.1",
+        "gbkey": "CDS",
+        "gene": "M2",
+        "locus_tag": "FLUAVH5N1_s7gp1",
+        "product": "matrix protein 2",
+        "protein_id": "YP_308670.1",
+        "aa_start": 1,
+        "aa_end": 8,
+        "protein_alias": [
+            "M2"
+        ],
+        "color": "rgba(217, 173, 60, 1)"
+    },
+    "M2_1": {
+        "type": "CDS",
+        "start": 740,
+        "end": 1007,
+        "ID": "cds-YP_308670.1",
+        "Parent": "gene-FLUAVH5N1_s7gp1",
+        "Dbxref": "GenBank:YP_308670.1,GeneID:3654621",
+        "Name": "YP_308670.1",
+        "gbkey": "CDS",
+        "gene": "M2",
+        "locus_tag": "FLUAVH5N1_s7gp1",
+        "product": "matrix protein 2-i",
+        "protein_id": "YP_308670.1",
+        "aa_start": 1,
+        "aa_end": 89,
+        "protein_alias": [
+            "M2"
+        ],
+        "color": "rgba(217, 173, 60, 1)"
+    },
+    "gene-FLUAVH5N1_s7gp2": {
+        "type": "gene",
+        "start": 26,
+        "end": 784,
+        "ID": "gene-FLUAVH5N1_s7gp2",
+        "Dbxref": "GeneID:8656647",
+        "Name": "M1",
+        "gbkey": "Gene",
+        "gene": "M1",
+        "gene_biotype": "protein_coding",
+        "locus_tag": "FLUAVH5N1_s7gp2"
+    },
+    "M1": {
+        "type": "CDS",
+        "start": 26,
+        "end": 784,
+        "ID": "cds-YP_308671.1",
+        "Parent": "gene-FLUAVH5N1_s7gp2",
+        "Dbxref": "GenBank:YP_308671.1,GeneID:8656647",
+        "Name": "YP_308671.1",
+        "gbkey": "CDS",
+        "gene": "M1",
+        "locus_tag": "FLUAVH5N1_s7gp2",
+        "product": "matrix protein 1",
+        "protein_id": "YP_308671.1",
+        "aa_start": 1,
+        "aa_end": 252,
+        "protein_alias": [
+            "M1"
+        ],
+        "color": "rgba(217, 173, 60, 1)"
+    },
+    "INTERGENIC": {
+        "type": "INTERGENIC",
+        "color": "rgb(128,128,128)"
+    }
+}

@@ -1,0 +1,342 @@
+{
+    "Src": {
+        "type": "region",
+        "start": 1,
+        "end": 15225,
+        "ID": "PP109421.1:1..15225",
+        "Dbxref": "taxon:208893",
+        "collection-date": "30-Oct-2017",
+        "country": "United Kingdom",
+        "gbkey": "Src",
+        "genome": "genomic",
+        "genotype": "A",
+        "isolate": "hRSV/A/England/397/2017",
+        "mol_type": "viral cRNA",
+        "nat-host": "Homo sapiens",
+        "species": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=208893",
+        "accession": "PP109421.1"
+    },
+    "gene-NS1": {
+        "type": "gene",
+        "start": 70,
+        "end": 489,
+        "ID": "gene-NS1",
+        "Name": "NS1",
+        "gbkey": "Gene",
+        "gene": "NS1",
+        "gene_biotype": "protein_coding"
+    },
+    "NS1": {
+        "type": "CDS",
+        "start": 70,
+        "end": 489,
+        "ID": "cds-WTM05205.1",
+        "Parent": "gene-NS1",
+        "Dbxref": "NCBI_GP:WTM05205.1",
+        "Name": "WTM05205.1",
+        "gbkey": "CDS",
+        "gene": "NS1",
+        "product": "nonstructural protein 1",
+        "protein_id": "WTM05205.1",
+        "aa_start": 1,
+        "aa_end": 139,
+        "protein_alias": [
+            "NS1"
+        ],
+        "color": "rgba(223, 66, 39, 1)"
+    },
+    "gene-NS2": {
+        "type": "gene",
+        "start": 599,
+        "end": 973,
+        "ID": "gene-NS2",
+        "Name": "NS2",
+        "gbkey": "Gene",
+        "gene": "NS2",
+        "gene_biotype": "protein_coding"
+    },
+    "NS2": {
+        "type": "CDS",
+        "start": 599,
+        "end": 973,
+        "ID": "cds-WTM05206.1",
+        "Parent": "gene-NS2",
+        "Dbxref": "NCBI_GP:WTM05206.1",
+        "Name": "WTM05206.1",
+        "gbkey": "CDS",
+        "gene": "NS2",
+        "product": "nonstructural protein 2",
+        "protein_id": "WTM05206.1",
+        "aa_start": 1,
+        "aa_end": 124,
+        "protein_alias": [
+            "NS2"
+        ],
+        "color": "rgba(196, 185, 69, 1)"
+    },
+    "gene-N": {
+        "type": "gene",
+        "start": 1111,
+        "end": 2286,
+        "ID": "gene-N",
+        "Name": "N",
+        "gbkey": "Gene",
+        "gene": "N",
+        "gene_biotype": "protein_coding"
+    },
+    "N": {
+        "type": "CDS",
+        "start": 1111,
+        "end": 2286,
+        "ID": "cds-WTM05207.1",
+        "Parent": "gene-N",
+        "Dbxref": "NCBI_GP:WTM05207.1",
+        "Name": "WTM05207.1",
+        "gbkey": "CDS",
+        "gene": "N",
+        "product": "nucleoprotein",
+        "protein_id": "WTM05207.1",
+        "aa_start": 1,
+        "aa_end": 391,
+        "protein_alias": [
+            "N"
+        ],
+        "color": "rgba(170, 189, 82, 1)"
+    },
+    "gene-P": {
+        "type": "gene",
+        "start": 2318,
+        "end": 3043,
+        "ID": "gene-P",
+        "Name": "P",
+        "gbkey": "Gene",
+        "gene": "P",
+        "gene_biotype": "protein_coding"
+    },
+    "P": {
+        "type": "CDS",
+        "start": 2318,
+        "end": 3043,
+        "ID": "cds-WTM05208.1",
+        "Parent": "gene-P",
+        "Dbxref": "NCBI_GP:WTM05208.1",
+        "Name": "WTM05208.1",
+        "gbkey": "CDS",
+        "gene": "P",
+        "product": "phosphoprotein",
+        "protein_id": "WTM05208.1",
+        "aa_start": 1,
+        "aa_end": 241,
+        "protein_alias": [
+            "P"
+        ],
+        "color": "rgba(117, 182, 129, 1)"
+    },
+    "gene-M": {
+        "type": "gene",
+        "start": 3226,
+        "end": 3996,
+        "ID": "gene-M",
+        "Name": "M",
+        "gbkey": "Gene",
+        "gene": "M",
+        "gene_biotype": "protein_coding"
+    },
+    "M": {
+        "type": "CDS",
+        "start": 3226,
+        "end": 3996,
+        "ID": "cds-WTM05209.1",
+        "Parent": "gene-M",
+        "Dbxref": "NCBI_GP:WTM05209.1",
+        "Name": "WTM05209.1",
+        "gbkey": "CDS",
+        "gene": "M",
+        "product": "matrix protein",
+        "protein_id": "WTM05209.1",
+        "aa_start": 1,
+        "aa_end": 256,
+        "protein_alias": [
+            "M"
+        ],
+        "color": "rgba(117, 182, 129, 1)"
+    },
+    "gene-SH": {
+        "type": "gene",
+        "start": 4266,
+        "end": 4460,
+        "ID": "gene-SH",
+        "Name": "SH",
+        "gbkey": "Gene",
+        "gene": "SH",
+        "gene_biotype": "protein_coding"
+    },
+    "SH": {
+        "type": "CDS",
+        "start": 4266,
+        "end": 4460,
+        "ID": "cds-WTM05210.1",
+        "Parent": "gene-SH",
+        "Dbxref": "NCBI_GP:WTM05210.1",
+        "Name": "WTM05210.1",
+        "gbkey": "CDS",
+        "gene": "SH",
+        "product": "small hydrophobic protein",
+        "protein_id": "WTM05210.1",
+        "aa_start": 1,
+        "aa_end": 64,
+        "protein_alias": [
+            "SH"
+        ],
+        "color": "rgba(96, 170, 158, 1)"
+    },
+    "gene-G": {
+        "type": "gene",
+        "start": 4652,
+        "end": 5617,
+        "ID": "gene-G",
+        "Name": "G",
+        "gbkey": "Gene",
+        "gene": "G",
+        "gene_biotype": "protein_coding"
+    },
+    "G": {
+        "type": "CDS",
+        "start": 4652,
+        "end": 5617,
+        "ID": "cds-WTM05211.1",
+        "Parent": "gene-G",
+        "Dbxref": "NCBI_GP:WTM05211.1",
+        "Name": "WTM05211.1",
+        "gbkey": "CDS",
+        "gene": "G",
+        "product": "attachment glycoprotein",
+        "protein_id": "WTM05211.1",
+        "aa_start": 1,
+        "aa_end": 321,
+        "protein_alias": [
+            "G"
+        ],
+        "color": "rgba(217, 173, 61, 1)"
+    },
+    "gene-F": {
+        "type": "gene",
+        "start": 5697,
+        "end": 7421,
+        "ID": "gene-F",
+        "Name": "F",
+        "gbkey": "Gene",
+        "gene": "F",
+        "gene_biotype": "protein_coding"
+    },
+    "F": {
+        "type": "CDS",
+        "start": 5697,
+        "end": 7421,
+        "ID": "cds-WTM05212.1",
+        "Parent": "gene-F",
+        "Dbxref": "NCBI_GP:WTM05212.1",
+        "Name": "WTM05212.1",
+        "gbkey": "CDS",
+        "gene": "F",
+        "product": "fusion protein",
+        "protein_id": "WTM05212.1",
+        "aa_start": 1,
+        "aa_end": 574,
+        "protein_alias": [
+            "F"
+        ],
+        "color": "rgba(96, 170, 158, 1)"
+    },
+    "gene-M2-1": {
+        "type": "gene",
+        "start": 7640,
+        "end": 8224,
+        "ID": "gene-M2-1",
+        "Name": "M2-1",
+        "gbkey": "Gene",
+        "gene": "M2-1",
+        "gene_biotype": "protein_coding"
+    },
+    "M2-1": {
+        "type": "CDS",
+        "start": 7640,
+        "end": 8224,
+        "ID": "cds-WTM05215.1",
+        "Parent": "gene-M2-1",
+        "Dbxref": "NCBI_GP:WTM05215.1",
+        "Name": "WTM05215.1",
+        "gbkey": "CDS",
+        "gene": "M2-1",
+        "product": "M2-1 protein",
+        "protein_id": "WTM05215.1",
+        "aa_start": 1,
+        "aa_end": 194,
+        "protein_alias": [
+            "M2-1"
+        ],
+        "color": "rgba(142, 188, 102, 1)"
+    },
+    "gene-M2-2": {
+        "type": "gene",
+        "start": 8199,
+        "end": 8465,
+        "ID": "gene-M2-2",
+        "Name": "M2-2",
+        "gbkey": "Gene",
+        "gene": "M2-2",
+        "gene_biotype": "protein_coding"
+    },
+    "M2-2": {
+        "type": "CDS",
+        "start": 8199,
+        "end": 8465,
+        "ID": "cds-WTM05214.1",
+        "Parent": "gene-M2-2",
+        "Dbxref": "NCBI_GP:WTM05214.1",
+        "Name": "WTM05214.1",
+        "gbkey": "CDS",
+        "gene": "M2-2",
+        "product": "M2-2 protein",
+        "protein_id": "WTM05214.1",
+        "aa_start": 1,
+        "aa_end": 88,
+        "protein_alias": [
+            "M2-2"
+        ],
+        "color": "rgba(229, 150, 55, 1)"
+    },
+    "gene-L": {
+        "type": "gene",
+        "start": 8532,
+        "end": 15029,
+        "ID": "gene-L",
+        "Name": "L",
+        "gbkey": "Gene",
+        "gene": "L",
+        "gene_biotype": "protein_coding"
+    },
+    "L": {
+        "type": "CDS",
+        "start": 8532,
+        "end": 15029,
+        "ID": "cds-WTM05213.1",
+        "Parent": "gene-L",
+        "Dbxref": "NCBI_GP:WTM05213.1",
+        "Name": "WTM05213.1",
+        "gbkey": "CDS",
+        "gene": "L",
+        "product": "RNA-dependent RNA polymerase",
+        "protein_id": "WTM05213.1",
+        "aa_start": 1,
+        "aa_end": 2165,
+        "protein_alias": [
+            "L"
+        ],
+        "color": "rgba(80, 151, 187, 1)"
+    },
+    "INTERGENIC": {
+        "type": "INTERGENIC",
+        "color": "rgb(128,128,128)"
+    }
+}

@@ -1,0 +1,9 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KX058884.1 1 1885
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=604436
+KX058884.1	Genbank	region	1	1885	.	+	.	ID=KX058884.1:1..1885;Dbxref=taxon:604436;Name=4;collection-date=2008;country=Australia;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Homo sapiens;segment=4;strain=B/Brisbane/60/2008
+KX058884.1	Genbank	gene	34	1791	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+KX058884.1	Genbank	CDS	34	1791	.	+	0	ID=cds-ANC28539.1;Parent=gene-HA;Dbxref=NCBI_GP:ANC28539.1;Name=ANC28539.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=ANC28539.1
+

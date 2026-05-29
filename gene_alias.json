@@ -1,0 +1,212 @@
+{
+    "SARS-CoV-2":{
+        "ORF1ab polyprotein" : ["ORF1a"],
+        "ORF1ab polyprotein-i" : ["ORF1b", "ORF1ab"],
+        "ORF3a protein" : ["ORF3a"],
+        "ORF6 protein" : ["ORF6"],
+        "ORF7a protein" : ["ORF7a"],
+        "ORF7b" : ["ORF7b"],
+        "ORF8 protein" : ["ORF8"],
+        "ORF10 protein" : ["ORF10"],
+        "envelope protein" : ["E"],
+        "membrane glycoprotein" : ["M"],
+        "nucleocapsid phosphoprotein" : ["N"],
+        "surface glycoprotein" : ["S"],
+        "3C-like proteinase" : ["3CL"],
+        "leader protein" : ["nsp1"],
+        "RNA-dependent RNA polymerase" : ["RdRp", "nsp12"],
+        "helicase" : ["nsp13"],
+        "3'-to-5' exonuclease" : ["nsp14"],
+        "2'-O-ribose methyltransferase" : ["nsp16"],
+        "nsp3" : ["PL_pro", "PLpro"],
+        "nsp2" : ["nsp2"],
+        "nsp4" : ["nsp4"],
+        "nsp6" : ["nsp6"],
+        "nsp7" : ["nsp7"],
+        "nsp8" : ["nsp8"],
+        "nsp9" : ["nsp9"],
+        "nsp10" : ["nsp10"],
+        "nsp11" : ["nsp11"],
+        "endoRNAse" : ["nsp15"]
+    },
+    "Measles": {
+        "nucleocapsid protein" : ["N"],
+        "V protein-i" : ["V"],
+        "V protein" : ["V"],
+        "phosphoprotein" : ["P"],
+        "C protein" : ["C"],
+        "matrix protein" : ["M"],
+        "fusion protein" : ["F"],
+        "hemagglutinin protein" : ["H"],
+        "large polymerase protein" : ["L"]
+    },
+    "RSV-A": {
+        "nonstructural protein 1" : ["NS1"],
+        "nonstructural protein 2" : ["NS2"],
+        "nucleoprotein" : ["N"],
+        "phosphoprotein" : ["P"],
+        "matrix protein" : ["M"],
+        "small hydrophobic protein" : ["SH"],
+        "attachment glycoprotein" : ["G"],
+        "fusion protein" : ["F"],
+        "M2-1 protein": ["M2-1"],
+        "M2-2 protein": ["M2-2"],
+        "RNA-dependent RNA polymerase" :["L"]
+
+    },
+    "RSV-B": {
+        "nonstructural protein 1" : ["NS1"],
+        "nonstructural protein 2" : ["NS2"],
+        "nucleocapsid protein" : ["N"],
+        "phosphoprotein" : ["P"],
+        "matrix protein" : ["M"],
+        "small hydrophobic protein" : ["SH"],
+        "attachment glycoprotein" : ["G"],
+        "fusion glycoprotein" : ["F"],
+        "transcription elongation factor M2-1": ["M2-1"],
+        "transcription elongation factor M2-2": ["M2-2"],
+        "RNA-directed RNA polymerase" :["L"]
+    },
+    "Influenza A": {
+        "H1N1": {
+            "PB2": {
+                "polymerase PB2": ["PB2"]
+            },
+            "PB1": {
+                "polymerase PB1": ["PB1"],
+                "PB1-F2 protein": ["PB1-F2"]
+            },
+            "PA": {
+                "polymerase PA": ["PA"],
+                "PA-X protein": ["PA-X"],
+                "PA-X protein-i": ["PA-X"]
+            },
+            "HA":{
+                "hemagglutinin": ["HA"],
+                "HA1": ["HA1"],
+                "HA2": ["HA2"]
+            },
+            "NP": {
+                "nucleocapsid protein": ["NP"]
+            },
+            "NA": {
+                "neuraminidase": ["NA"]
+            },
+            "M2": {
+                "matrix protein 2": ["M2"],
+                "matrix protein 2-i": ["M2"],
+                "matrix protein 1": ["M1"]
+            },
+            "NS": {
+                "nuclear export protein": ["NS2"],
+                "nuclear export protein-i": ["NS2"],
+                "nonstructural protein 1": ["NS1"]
+            }
+        },
+        "H3N2": {
+            "PB2": {
+                "polymerase PB2": ["PB2"]
+            },
+            "PB1": {
+                "polymerase PB1": ["PB1"],
+                "PB1-F2 protein": ["PB1-F2"]
+            },
+            "PA": {
+                "polymerase PA": ["PA"],
+                "PA-X protein": ["PA-X"],
+                "PA-X protein-i": ["PA-X"]
+            },
+            "HA":{
+                "hemagglutinin": ["HA"],
+                "HA1": ["HA1"],
+                "HA2": ["HA2"]
+            },
+            "NP": {
+                "nucleocapsid protein": ["NP"]
+            },
+            "NA": {
+                "neuraminidase": ["NA"]
+            },
+            "M2": {
+                "matrix protein 2": ["M2"],
+                "matrix protein 2-i": ["M2"],
+                "matrix protein 1": ["M1"]
+            },
+            "NS": {
+                "nonstructural protein 2": ["NS2"],
+                "nonstructural protein 2-i": ["NS2"],
+                "nonstructural protein 1": ["NS1"]
+            }
+        },    
+        "H5Nx": {
+            "PB2": {
+                "polymerase": ["PB2"]
+            },
+            "PB1": {
+                "polymerase": ["PB1"],
+                "PB1-F2 protein": ["PB1-F2"]
+            },
+            "PA": {
+                "polymerase": ["PA"],
+                "PA-X protein": ["PA-X"],
+                "PA-X protein-i": ["PA-X"]
+            },
+            "HA":{
+                "hemagglutinin": ["HA"],
+                "HA1": ["HA1"],
+                "HA2": ["HA2"]
+            },
+            "NP": {
+                "nucleocapsid protein": ["NP"]
+            },
+            "NA": {
+                "neuraminidase": ["NA"]
+            },
+            "M2": {
+                "matrix protein 2": ["M2"],
+                "matrix protein 2-i": ["M2"],
+                "matrix protein 1": ["M1"]
+            },
+            "NS": {
+                "nonstructural protein 2": ["NS2"],
+                "nonstructural protein 2-i": ["NS2"],
+                "nonstructural protein 1": ["NS1"]
+            }
+        }
+    },
+    "Influenza B": {
+         "Victoria": {
+            "PB2": {
+                "polymerase PB2": ["PB2"]
+            },
+            "PB1": {
+                "polymerase PB1": ["PB1"]
+            },
+            "PA": {
+                "polymerase PA": ["PA"],
+                "PA-X protein": ["PA-X"]
+            },
+            "HA":{
+                "hemagglutinin": ["HA"],
+                "HA1": ["HA1"],
+                "HA2": ["HA2"]
+            },
+            "NP": {
+                "nucleoprotein": ["NP"]
+            },
+            "NA": {
+                "neuraminidase": ["NA"],
+                "NB protein": ["NB"]
+            },
+            "M2": {
+                "BM2 protein": ["BM2"],
+                "matrix protein 1": ["M1"]
+            },
+            "NS": {
+                "nuclear export protein": ["NEP"],
+                "nuclear export protein-i": ["NEP"],
+                "nonstructural protein 1": ["NS1"]
+            }
+        }  
+    }
+}

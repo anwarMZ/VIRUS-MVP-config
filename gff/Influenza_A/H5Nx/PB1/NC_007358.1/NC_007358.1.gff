@@ -1,0 +1,11 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_007358.1 1 2341
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=93838
+NC_007358.1	RefSeq	region	1	2341	.	+	.	ID=NC_007358.1:1..2341;Dbxref=taxon:93838;Name=2;collection-date=1996;country=China;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=goose;old-name=Influenza A virus (A/Goose/Guangdong/1/96(H5N1));segment=2;serotype=H5N1;strain=A/goose/Guangdong/1/1996
+NC_007358.1	RefSeq	gene	25	2298	.	+	.	ID=gene-FLUAVH5N1_s2gp1;Dbxref=GeneID:3654616;Name=PB1;gbkey=Gene;gene=PB1;gene_biotype=protein_coding;locus_tag=FLUAVH5N1_s2gp1
+NC_007358.1	RefSeq	CDS	25	2298	.	+	0	ID=cds-YP_308665.1;Parent=gene-FLUAVH5N1_s2gp1;Dbxref=GenBank:YP_308665.1,GeneID:3654616;Name=YP_308665.1;gbkey=CDS;gene=PB1;locus_tag=FLUAVH5N1_s2gp1;product=polymerase;protein_id=YP_308665.1
+NC_007358.1	RefSeq	gene	119	391	.	+	.	ID=gene-FLUAVH5N1_s2gp2;Dbxref=GeneID:3896424;Name=PB1-F2;gbkey=Gene;gene=PB1-F2;gene_biotype=protein_coding;locus_tag=FLUAVH5N1_s2gp2
+NC_007358.1	RefSeq	CDS	119	391	.	+	0	ID=cds-YP_473348.1;Parent=gene-FLUAVH5N1_s2gp2;Dbxref=GenBank:YP_473348.1,GeneID:3896424;Name=YP_473348.1;gbkey=CDS;gene=PB1-F2;locus_tag=FLUAVH5N1_s2gp2;product=PB1-F2 protein;protein_id=YP_473348.1
+

@@ -1,0 +1,101 @@
+{
+    "Src": {
+        "type": "region",
+        "start": 1,
+        "end": 1737,
+        "ID": "CY163680.1:1..1737",
+        "Dbxref": "taxon:393902",
+        "Name": "4",
+        "gbkey": "Src",
+        "lab-host": "1006_Day_3 passage(s)",
+        "mol_type": "viral cRNA",
+        "nat-host": "human",
+        "segment": "4",
+        "serotype": "H3N2",
+        "strain": "A/Wisconsin/67/2005",
+        "species": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=393902",
+        "accession": "CY163680.1"
+    },
+    "misc_feature": {
+        "type": "sequence_feature",
+        "start": 1,
+        "end": 1737,
+        "ID": "id-CY163680.1:1..1737",
+        "Dbxref": "IRD:NIGSP_CW_00029.HA",
+        "gbkey": "misc_feature"
+    },
+    "gene-HA": {
+        "type": "gene",
+        "start": 18,
+        "end": 1718,
+        "ID": "gene-HA",
+        "Name": "HA",
+        "gbkey": "Gene",
+        "gene": "HA",
+        "gene_biotype": "protein_coding"
+    },
+    "HA": {
+        "type": "CDS",
+        "start": 18,
+        "end": 1718,
+        "ID": "cds-AHG96407.1",
+        "Parent": "gene-HA",
+        "Dbxref": "NCBI_GP:AHG96407.1",
+        "Name": "AHG96407.1",
+        "gbkey": "CDS",
+        "gene": "HA",
+        "product": "hemagglutinin",
+        "protein_id": "AHG96407.1",
+        "aa_start": 1,
+        "aa_end": 566,
+        "protein_alias": [
+            "HA"
+        ],
+        "color": "rgba(80, 152, 186, 1)"
+    },
+    "id-AHG96407.1:1..16": {
+        "type": "signal_peptide_region_of_CDS",
+        "start": 18,
+        "end": 65,
+        "ID": "id-AHG96407.1:1..16",
+        "Parent": "cds-AHG96407.1",
+        "gbkey": "Prot",
+        "aa_start": 1,
+        "aa_end": 16,
+        "color": "rgba(96, 170, 158, 1)"
+    },
+    "HA1": {
+        "type": "mature_protein_region_of_CDS",
+        "start": 66,
+        "end": 1052,
+        "ID": "id-AHG96407.1:17..345",
+        "Parent": "cds-AHG96407.1",
+        "gbkey": "Prot",
+        "product": "HA1",
+        "aa_start": 17,
+        "aa_end": 345,
+        "protein_alias": [
+            "HA1"
+        ],
+        "color": "rgba(217, 173, 60, 1)"
+    },
+    "HA2": {
+        "type": "mature_protein_region_of_CDS",
+        "start": 1053,
+        "end": 1715,
+        "ID": "id-AHG96407.1:346..566",
+        "Parent": "cds-AHG96407.1",
+        "gbkey": "Prot",
+        "product": "HA2",
+        "aa_start": 346,
+        "aa_end": 566,
+        "protein_alias": [
+            "HA2"
+        ],
+        "color": "rgba(217, 173, 60, 1)"
+    },
+    "INTERGENIC": {
+        "type": "INTERGENIC",
+        "color": "rgb(128,128,128)"
+    }
+}

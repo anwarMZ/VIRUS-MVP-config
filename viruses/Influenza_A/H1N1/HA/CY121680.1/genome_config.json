@@ -1,0 +1,103 @@
+{
+    "Src": {
+        "type": "region",
+        "start": 1,
+        "end": 1752,
+        "ID": "CY121680.1:1..1752",
+        "Dbxref": "taxon:641809",
+        "Name": "4",
+        "collection-date": "2009",
+        "country": "USA: California",
+        "gbkey": "Src",
+        "lab-host": "Egg passage(s)",
+        "mol_type": "viral cRNA",
+        "nat-host": "human",
+        "segment": "4",
+        "serotype": "H1N1",
+        "strain": "A/California/07/2009",
+        "species": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=641809",
+        "accession": "CY121680.1"
+    },
+    "misc_feature": {
+        "type": "sequence_feature",
+        "start": 1,
+        "end": 1752,
+        "ID": "id-CY121680.1:1..1752",
+        "Dbxref": "IRD:NIGSP_BUCA_00080.HA",
+        "gbkey": "misc_feature"
+    },
+    "gene-HA": {
+        "type": "gene",
+        "start": 21,
+        "end": 1721,
+        "ID": "gene-HA",
+        "Name": "HA",
+        "gbkey": "Gene",
+        "gene": "HA",
+        "gene_biotype": "protein_coding"
+    },
+    "HA": {
+        "type": "CDS",
+        "start": 21,
+        "end": 1721,
+        "ID": "cds-AFM72832.1",
+        "Parent": "gene-HA",
+        "Dbxref": "NCBI_GP:AFM72832.1",
+        "Name": "AFM72832.1",
+        "gbkey": "CDS",
+        "gene": "HA",
+        "product": "hemagglutinin",
+        "protein_id": "AFM72832.1",
+        "aa_start": 1,
+        "aa_end": 566,
+        "protein_alias": [
+            "HA"
+        ],
+        "color": "rgba(80, 152, 186, 1)"
+    },
+    "id-AFM72832.1:1..17": {
+        "type": "signal_peptide_region_of_CDS",
+        "start": 21,
+        "end": 71,
+        "ID": "id-AFM72832.1:1..17",
+        "Parent": "cds-AFM72832.1",
+        "gbkey": "Prot",
+        "aa_start": 1,
+        "aa_end": 17,
+        "color": "rgba(96, 170, 158, 1)"
+    },
+    "HA1": {
+        "type": "mature_protein_region_of_CDS",
+        "start": 72,
+        "end": 1052,
+        "ID": "id-AFM72832.1:18..344",
+        "Parent": "cds-AFM72832.1",
+        "gbkey": "Prot",
+        "product": "HA1",
+        "aa_start": 18,
+        "aa_end": 344,
+        "protein_alias": [
+            "HA1"
+        ],
+        "color": "rgba(217, 173, 60, 1)"
+    },
+    "HA2": {
+        "type": "mature_protein_region_of_CDS",
+        "start": 1053,
+        "end": 1718,
+        "ID": "id-AFM72832.1:345..566",
+        "Parent": "cds-AFM72832.1",
+        "gbkey": "Prot",
+        "product": "HA2",
+        "aa_start": 345,
+        "aa_end": 566,
+        "protein_alias": [
+            "HA2"
+        ],
+        "color": "rgba(217, 173, 60, 1)"
+    },
+    "INTERGENIC": {
+        "type": "INTERGENIC",
+        "color": "rgb(128,128,128)"
+    }
+}

@@ -1,0 +1,13 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY121680.1 1 1752
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=641809
+CY121680.1	Genbank	region	1	1752	.	+	.	ID=CY121680.1:1..1752;Dbxref=taxon:641809;Name=4;collection-date=2009;country=USA: California;gbkey=Src;lab-host=Egg passage(s);mol_type=viral cRNA;nat-host=human;segment=4;serotype=H1N1;strain=A/California/07/2009
+CY121680.1	Genbank	sequence_feature	1	1752	.	+	.	ID=id-CY121680.1:1..1752;Dbxref=IRD:NIGSP_BUCA_00080.HA;gbkey=misc_feature
+CY121680.1	Genbank	gene	21	1721	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+CY121680.1	Genbank	CDS	21	1721	.	+	0	ID=cds-AFM72832.1;Parent=gene-HA;Dbxref=NCBI_GP:AFM72832.1;Name=AFM72832.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=AFM72832.1
+CY121680.1	Genbank	signal_peptide_region_of_CDS	21	71	.	+	.	ID=id-AFM72832.1:1..17;Parent=cds-AFM72832.1;gbkey=Prot
+CY121680.1	Genbank	mature_protein_region_of_CDS	72	1052	.	+	.	ID=id-AFM72832.1:18..344;Parent=cds-AFM72832.1;gbkey=Prot;product=HA1
+CY121680.1	Genbank	mature_protein_region_of_CDS	1053	1718	.	+	.	ID=id-AFM72832.1:345..566;Parent=cds-AFM72832.1;gbkey=Prot;product=HA2
+

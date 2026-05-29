@@ -1,0 +1,53 @@
+{
+    "Src": {
+        "type": "region",
+        "start": 1,
+        "end": 1885,
+        "ID": "KX058884.1:1..1885",
+        "Dbxref": "taxon:604436",
+        "Name": "4",
+        "collection-date": "2008",
+        "country": "Australia",
+        "gbkey": "Src",
+        "genome": "genomic",
+        "mol_type": "viral cRNA",
+        "nat-host": "Homo sapiens",
+        "segment": "4",
+        "strain": "B/Brisbane/60/2008",
+        "species": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=604436",
+        "accession": "KX058884.1"
+    },
+    "gene-HA": {
+        "type": "gene",
+        "start": 34,
+        "end": 1791,
+        "ID": "gene-HA",
+        "Name": "HA",
+        "gbkey": "Gene",
+        "gene": "HA",
+        "gene_biotype": "protein_coding"
+    },
+    "HA": {
+        "type": "CDS",
+        "start": 34,
+        "end": 1791,
+        "ID": "cds-ANC28539.1",
+        "Parent": "gene-HA",
+        "Dbxref": "NCBI_GP:ANC28539.1",
+        "Name": "ANC28539.1",
+        "gbkey": "CDS",
+        "gene": "HA",
+        "product": "hemagglutinin",
+        "protein_id": "ANC28539.1",
+        "aa_start": 1,
+        "aa_end": 585,
+        "protein_alias": [
+            "HA"
+        ],
+        "color": "rgba(80, 152, 186, 1)"
+    },
+    "INTERGENIC": {
+        "type": "INTERGENIC",
+        "color": "rgb(128,128,128)"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "Src": {
+        "type": "region",
+        "start": 1,
+        "end": 2280,
+        "ID": "NC_026438.1:1..2280",
+        "Dbxref": "taxon:641809",
+        "Name": "1",
+        "collection-date": "09-Apr-2009",
+        "country": "USA: California state",
+        "gbkey": "Src",
+        "genome": "genomic",
+        "mol_type": "viral cRNA",
+        "nat-host": "Homo sapiens%3B gender M%3B age 54",
+        "segment": "1",
+        "serotype": "H1N1",
+        "strain": "A/California/07/2009",
+        "species": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=641809",
+        "accession": "NC_026438.1"
+    },
+    "gene-UJ99_s1gp1": {
+        "type": "gene",
+        "start": 1,
+        "end": 2280,
+        "ID": "gene-UJ99_s1gp1",
+        "Dbxref": "GeneID:23308131",
+        "Name": "PB2",
+        "gbkey": "Gene",
+        "gene": "PB2",
+        "gene_biotype": "protein_coding",
+        "locus_tag": "UJ99_s1gp1"
+    },
+    "PB2": {
+        "type": "CDS",
+        "start": 1,
+        "end": 2280,
+        "ID": "cds-YP_009118631.1",
+        "Parent": "gene-UJ99_s1gp1",
+        "Dbxref": "GenBank:YP_009118631.1,GeneID:23308131",
+        "Name": "YP_009118631.1",
+        "gbkey": "CDS",
+        "gene": "PB2",
+        "locus_tag": "UJ99_s1gp1",
+        "product": "polymerase PB2",
+        "protein_id": "YP_009118631.1",
+        "aa_start": 1,
+        "aa_end": 759,
+        "protein_alias": [
+            "PB2"
+        ],
+        "color": "rgba(96, 170, 158, 1)"
+    },
+    "INTERGENIC": {
+        "type": "INTERGENIC",
+        "color": "rgb(128,128,128)"
+    }
+}

@@ -1,0 +1,13 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY163680.1 1 1737
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=393902
+CY163680.1	Genbank	region	1	1737	.	+	.	ID=CY163680.1:1..1737;Dbxref=taxon:393902;Name=4;gbkey=Src;lab-host=1006_Day_3 passage(s);mol_type=viral cRNA;nat-host=human;segment=4;serotype=H3N2;strain=A/Wisconsin/67/2005
+CY163680.1	Genbank	sequence_feature	1	1737	.	+	.	ID=id-CY163680.1:1..1737;Dbxref=IRD:NIGSP_CW_00029.HA;gbkey=misc_feature
+CY163680.1	Genbank	gene	18	1718	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+CY163680.1	Genbank	CDS	18	1718	.	+	0	ID=cds-AHG96407.1;Parent=gene-HA;Dbxref=NCBI_GP:AHG96407.1;Name=AHG96407.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=AHG96407.1
+CY163680.1	Genbank	signal_peptide_region_of_CDS	18	65	.	+	.	ID=id-AHG96407.1:1..16;Parent=cds-AHG96407.1;gbkey=Prot
+CY163680.1	Genbank	mature_protein_region_of_CDS	66	1052	.	+	.	ID=id-AHG96407.1:17..345;Parent=cds-AHG96407.1;gbkey=Prot;product=HA1
+CY163680.1	Genbank	mature_protein_region_of_CDS	1053	1715	.	+	.	ID=id-AHG96407.1:346..566;Parent=cds-AHG96407.1;gbkey=Prot;product=HA2
+
